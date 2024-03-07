@@ -1,0 +1,9 @@
+1) créez un dossier "secret"
+2) créez un dossier "loot"
+3) créez un dossier "quartermaster"
+
+4) créez un dossier "passphrase"
+
+5) déplacez les trois dossiers créés en 1), 2) et 3) dans le dossier "passphrase" créé en 4)
+
+5) rendez-vous sous l'arbre 21

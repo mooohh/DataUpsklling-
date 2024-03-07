@@ -1,0 +1,18 @@
+Ouuuups. L'indice n'était pas clair.
+
+Il ne fallait pas créer des dossiers, mais des fichiers.
+
+Ils vont contenir votre prochain indice:
+
+-> Le fichier secret doit contenir la phrase "The treasure is located at the following"
+-> le fichier quatermaster doit contenir la phrase "coordinates"
+-> le fichier loot doit rester vide
+
+mettez ces trois fichiers dans le dossier passphrase que vous avez créé tout à l'heure (en utilisant un chemin absolu ou relatif, en fonction de ce que vous préférez).
+
+Quand les trois fichiers seront dans passphrase, utilisez la formule "ls -lS" (S majuscule).
+
+Vos trois fichiers seront listés par ordre de taille.
+
+Une fois les fichiers mis dans l'ordre de taille, assemblez les premières lettres de chaque fichier qui apparaît dans le listing pour obtenir votre second indice ;)
+

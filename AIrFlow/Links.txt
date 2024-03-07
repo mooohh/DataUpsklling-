@@ -1,0 +1,93 @@
+
+Airlow
+
+Into
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6577443a7e2ed_0-proposintroductif_pp.mp4
+
+1 - cron et crontab
+https://d1yei2z3i6k35z.cloudfront.net/3653488/657744aec8071_1-introductioncron_pp.mp4
+https://d1yei2z3i6k35z.cloudfront.net/3653488/65774f0579e57_2-crontabguru_pp.mp4
+
+2 - airflow = install 
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6577457e888e5_4-installairflowlocallyADDCOMMANDSBELOWVIDEO_pp.mp4
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6577455a46808_3-problmesrsolusparairflow_pp.mp4
+
+3- - presentation du portail
+https://d1yei2z3i6k35z.cloudfront.net/3653488/657748e6ac84a_6-presentationduportailII_pp.mp4
+https://d1yei2z3i6k35z.cloudfront.net/3653488/657748e6ac84a_6-presentationduportailII_pp.mp4
+
+
+4- DAGsn Talks et dependances
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6577493f66788_7-detaildudag_pp.mp4
+https://d1yei2z3i6k35z.cloudfront.net/3653488/657749885f654_8-dependances_pp.mp4
+https://d1yei2z3i6k35z.cloudfront.net/3653488/65774a07db82c_9-terminologiePRECISERQUELESDAGSSEPLACEENTDANSSLASHDAGS_pp.mp4
+    
+    ATTENTION:
+
+        Quand vous aurez écrit le script Python qui contient votre dag, placez le dans un folder /dags que vous aurez créé dans votre AIRFLOW_HOME
+
+
+
+        (normalement, vous avez setup votre AIRFLOW_HOME dans la partie install.
+
+        Sinon, par défaut c'est votre home directory ;)
+
+5 - premier Dag et catchutp
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6577455a46808_3-problmesrsolusparairflow_pp.mp4
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6577457e888e5_4-installairflowlocallyADDCOMMANDSBELOWVIDEO_pp.mp4
+    Les commandes pour l'installation utilisées dans la vidéo:
+                mkdir airflowtuto && cd airflowtuto
+
+                python3 -m venv venv
+
+                source venv/bin/activate
+
+
+
+                export AIRFLOW_HOME=$(pwd)
+
+                AIRFLOW_VERSION=2.7.3
+
+                PYTHON_VERSION=$(python --version | cut -d   -f 2 | cut -d . -f 1-2)
+
+                (ou python -- version et garder 3.8 ou 3.9 ou 3.10)
+
+                CONSTRAINT_URL=https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt
+
+                pip install apache-airflow==${AIRFLOW_VERSION} --constraint ${CONSTRAINT_URL}
+
+                Lancer ensuite la commande:
+
+                airflow standalone
+
+Ouverture et conclusion 
+https://d1yei2z3i6k35z.cloudfront.net/3653488/65774e7f561b3_12-correctionetconclusion_pp.mp4
+
+Note: vous êtes peut-être surpris que la partie Airflow soit si courte.
+
+C'est normal, ce n'est qu'une introduction pour vous aider à faire des projets plus chiadés ;)
+
+
+
+Rappel de la page de présentation du programme:
+
+
+Déjà au moment de la création du programme,
+
+je préssentais qu'une partie Airflow trop longue
+
+serait superflue et décourageante pour beaucoup de participants.
+
+
+
+Et surtout, il n'est pas indispensable:
+
+Alors, pourquoi en avoir parlé ?
+
+Juste pour:
+
+-> ajouter une petite touche de différenciation à votre profil
+
+-> pouvoir répondre à quelques questions de bases en entretien
+
+-> scheduler le projet DE End-To-End pour ceux qui veulent le suivre :)

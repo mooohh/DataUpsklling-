@@ -1,0 +1,145 @@
+
+La checklist du projet parfait
+
+Beaucoup de projets Github ne sont pas achevés (je vous rassure: les miens aussi).
+
+C'est normal: il y a toujours une fonctionnalité à ajouter, une nouvelle piste à explorer, des tests statistiques à faire en plus sur la donnée.
+
+Le principal enseignement que je retiens des compétitions Kaggle,
+c'est que tout projet, même simple en apparence, est potentiellement déclinable à l'infini.
+
+
+Les compétitions durent trois mois, et pourtant, à la fin, on a tous l'impression que le temps nous manque, et qu'on aurait pu "aller plus loin".
+
+L'objectif de cette checklist, c'est de vous donner des idées contre-intuitives de choses que vous pouvez mettre en place sur votre repo Github pour "donner l'impression" d'un projet 100% abouti alors que votre code ne l'est pas (spoiler: il ne le sera jamais).
+
+
+Mettez -vous dans la peau de la personne qui va le visiter:
+
+=> Est-ce qu'elle a le temps d'aller lire votre code ? Probablement pas
+
+=> De chercher à comprendre ce que le code fait ? Encore moins
+
+
+
+Votre objectif est donc de capter l'attention de cette personne et de la garder
+en rendant votre projet mémorable.
+Pour ça, plutôt que de passer des heures à complexifier votre app
+pour ajouter une feature que votre interlocuteur n'aura pas le temps de tester,
+faites un peu de "comm'".
+
+Ca vous pendra beaucoup moins de temps et ça rendra votre projet beaucoup plus mémorable!
+
+Voici la liste des choses à faire
+pour booster votre Gihub
+qui sont beaucoup plus efficaces que de coder davantage
+et prennent moins d'une journée à réaliser ;)
+
+
+
+Un nom "marketing", facile à retenir ! (30mn)
+
+Le pire que vous puissiez faire est d'appeller votre projet "personnal-project".
+Avec le nom, on doit à la fois savoir de quoi ça parle, mais aussi être intrigué !
+Prenez FastAPI: on comprends tout de suite de quoi ça parle, et on se demande
+"qu'est-ce qui leur font dire qu'ils sont 'Fast', au juste ?!"
+
+Si possible, utilisez des chiffres.
+Par exemple, "Echecs: 3 features qui prédisent le résultat après 1 000 matchs analysés".
+Ou "4 modèles stackés pour retrouver 2 000 000 de dollars de fraude bancaire".
+Ou "1 pipeline en 3 étapes pour cleaner de la donnée Twitter".
+
+
+
+Une Tagline (30mn)
+
+La tagline doit clairifier le but du projet, si le nom n'est pas suffisamment clair.
+
+Attention ! Ce n'est pas une liste de fonctionnalités de votre projet.
+Votre Tagline doit être:
+-> Simple
+-> Mémorable
+-> Distinctive (en quoi ce projet est différent des autres)
+-> Explicite (on doit comprendre l'intérêt du projet)
+
+Pensez à la tagline du iPod d'Apple: "1000 chansons dans votre proche !"
+
+
+
+De la donnée intrigante (1h pour choisir, plusieurs pour la trouver ;) )
+
+Trouvez de la donnée qui
+1) vous intéresse (plus facile de travailler dessus)
+2) est susceptible d'intéresser votre interlocuteur.
+
+Par exemple, cette personne a travaillé sur de la donnée Tinder:
+
+https://towardsdatascience.com/i-analyzed-hundreds-of-users-tinder-data-including-messages-so-you-dont-have-to-14c6dc4a5fdd
+
+
+
+Un produit "tangible"
+Si votre visiteur doit cloner votre projet et faire une install pour voir ce que ça donne, c'est trop de boulot.
+Donnez lui au choix:
+- une API
+- une URL de site web
+- un lien vers une application Streamlit
+
+
+
+Une Doc avec un schéma !
+
+Une image vaut mille mots.
+Avant de mettre le moindre texte, votre ReadMe doit contenir un schéma !
+
+Ce schéma doit comprendre:
+- la source de votre donnée
+- les traitements effectués
+- les logos des langages/frameworks/outils utilisée lors de chacun des traitements
+- la "sortie" de votre traitement (API / DashBoard/ Appli... voire ci-dessus).
+
+Ce schéma est trèsimportant !!
+Si votre visiteur est un recruteur non-tech, ça peut faire toute la différence ;)
+
+Pour faire un schéma de qualité et agréable à regarder,
+je vous conseille d'utiliser https://excalidraw.com .
+C'est un super outil qui vous suivra longtemps ;)
+
+
+
+Une vidéo de présentation (Temps passé à tourner: ~1H)
+
+Last but not least !
+
+Une vidéo a plein d'avantages !!
+-> Plutôt que de devoir chercher, le visiteur à toutes les infos au même endroit.
+-> Les gens se disent "wouaw, il a fait l'effort de tourner une vidéo" alors qu'en fait c'est simple ^^
+-> Le recruteur entend votre voix et voit votre visable, c'est beaucoup plus mémorable et personnel !
+
+La vidéo doit durer entre 2 et 6mn max!
+Au délà, personne ne la regardera en entier.
+Faites simple: enregistrez votre écran et une incrustation de vous via webcam avec OBSStudio (gratuit).
+Mettez la vidéo sur Youtube.
+Insérez la vidéo sur le readme grâce à du Markup ou du HTML.
+Si c'est trop compliqué, mettez un screenshot de la vidéo qui ouvre Youtube quand on clique dessus ;)
+
+
+
+
+---
+Vous noterez que toutes ces étapes prennent beaucoup moins de temps que de coder votre projet !
+Et pourtant, elles peuvent faire la différence, et vous offrent l'occasion de mettre en avant des skills qui sont très importants pour une carrière data, comme la visualisation ou les communication skills.
+
+Et si ça vous semble trop de travail, faites tout sauf la vidéo, ce sera déjà très bien ;)
+
+
+
+
+
+
+
+
+
+src="https://d1yei2z3i6k35z.cloudfront.net/3653488/659320322c24f_projet_de_pp.mp4"
+src="https://d1yei2z3i6k35z.cloudfront.net/3653488/6593205a6aabf_projet_DE_dashboard_2.mp4"
+src="https://d1yei2z3i6k35z.cloudfront.net/3653488/65102b5cda40f_conf_mlb.mp4"

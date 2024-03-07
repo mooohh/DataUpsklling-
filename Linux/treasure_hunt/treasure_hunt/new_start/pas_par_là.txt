@@ -1,0 +1,11 @@
+Si vous avez ouvert ce fichier en premier, félicitations pour votre esprit de contradiction, très malin !
+
+Voici l'indice suivant:
+
+- ALlez dans le dossier racine et listez tous les fichiers
+
+- L'un d'entre eux devrait commencez par "lost+...". Retournez dans le dossier treasure_hunt et ouvert le dossier qui porte le même nom
+
+Si, dans le dossier racine, aucun dossier ne commence par "lost+..." alors il y aura un dossier qui commence par "bo...". Retournez dans "treasure_hunt" et ouvrez ce dossier.
+
+(Si vous n'avez ni "lost+..." ni "bo...", vous êtes peut-être sur MacOS ou alors vous avez installé git bash sur Windows. Dans ce cas, ouvrez le dossier "lost+lost"

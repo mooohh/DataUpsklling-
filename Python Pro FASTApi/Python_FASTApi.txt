@@ -1,0 +1,327 @@
+
+
+Python Pro
+
+INto 
+    https://benjamin-dubreu.systeme.io/course/data-upskilling/lecture/2698554
+
+
+    Dans cette partie sur FASTApi, on va suivre une logique un peu différente.
+
+    Je vais utiliser le repo avec tout le code, et vous montrer 1 par 1 les commits que j'ai ajoutés.
+
+
+
+    Ca me permet de vous montrer de nouvelles fonctionnalités sur git ET de vous montrer comment j'ai découpé les étapes de ce mini-projet :)
+
+POO en Python
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6550ca6354012_fast_api_3_presentation_de_la_classe_sensor_pp.mp4
+
+    Le deuxième commit du projet introduit une classe pour créer des "capteurs" (sensors).
+
+    Mais, c'est quoi une classe ... ?
+
+    Quelques notions de POO + notebook de pratique
+
+    href="https://d1yei2z3i6k35z.cloudfront.net/3653488/6550cb7f62dba_Lesson3.0PythonOOP-Classes.zip"
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6550caea73b28_fast_api_4_intro_classes_AJOUTER_LE_NOTEBOOK_pp.mp4
+
+
+    Classes, instances, attributs, methodes...
+
+    Qu'est-ce que c'est que tout ce verbiage ?!
+
+    On voit ça ensemble dans la vidéo suivante :)
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6550cbae7e505_fast_api_5_classes_instances_attricuts_methods_pp.mp4
+    
+    Il existe des méthodes particulières appellées "dunder methods".
+
+    "Dunder", c'est une contraction pour "double underscore", parce que ces méthodes ont la particularité d'être écrites avec deux underscores avant et deux underscores après (par exemple: __init__).
+
+
+
+    Dans la vidéo suivante, on va en voir quelques exemples pour votre culture générale ;)
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6550cdd424d56_fast_api_6_dunder_methods_pp.mp4
+
+Sensor Class
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6553d884edd2b_fast_api_7_sensor_class_pp.mp4
+    
+    Maintenant qu'on a découvert les concepts de classes, de méthodes et d'attributs, on les utilise pour créer une class "VisitSensor" qui va produire un nombre de visiteurs pour une journée donnée et un capteur donné.
+    Quelques tips & tricks Python
+    
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6553d9372dd4b_fast_api_8_sys_argv_et_list_comprehensions_ADD_A_LC_notebook_pp.mp4
+    
+    Dans cette vidéo, on voit comment récupérer les arguments passés en ligne de commande au sein de notre script python.
+
+    Ca permet de tester rapidement que notre script fonctionne bien.
+
+    J'en profite pour montrer un exemple de list_comprehension.
+
+    Si vous ne connaissiez pas déjà le concept, je vous ai préparé un petit notebook :)
+
+
+
+
+
+
+    href="https://d1yei2z3i6k35z.cloudfront.net/3653488/6553e0761610c_list_comprehensions.zip"
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6553e107a0851_fast_api_9_ajout_fonctionnalit_malfunction_next_TESTS_pp.mp4
+
+
+    Comme on cherche à créer de la donnée "réaliste", on rajoute la possibilité que notre capteur "plante" de temps en temps.
+
+    On genère un chiffre entre 0.0 et 1.0 au hasard.
+
+    Si ce chiffre est < 0.015, le sensor casse.
+
+    Si le chiffre est > 0.015 et < 0.035, le sensor a une malfonction.
+
+    Ensuite, on vérifie que notre code fonctionne comme prévu.
+
+    C'est l'occasion d'un rappel bash sur les chevrons, le pipe, cat et grep :)
+
+
+
+    Mais cette manière de procéder pour vérifier que notre code fonctionne bien est un peu "artisanale".
+
+
+
+    Dans la prochaine série de vidéos,
+
+    on va voir comment tester ce code de manière plus robuste avec des tests unitaires !
+    ---
+
+    Ah ! J'oubliais. Pour ceux qui ont ouvert le notebook sur les list_comprehensions:
+
+    [item for item in liste_de_courses if item in fruits]
+    ;)
+    
+Unit testing avec unittest
+
+    Tests unitaires simples:
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6557b7731d529_fast_api_10_tests_unitaires_simples_pp.mp4
+    Le principe des tests, c'est de s'assurer que, quand quelqu'un modifiera le code plus tard, il ne changera involontairement la manière dont la fonction était sensée fonctionner.
+
+    On peut faire ça très simplement avec des asserts.
+
+
+
+    Mais unittest offre des fonctionnalités supplémentaires:
+
+    Tests unitaires avec unittest:
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6557b807994bc_fast_api_11_tests_unitaires_unittest_pp.mp4
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6557baf5a8930_fast_api_12_tests_unitaires_unittest_subtests_exercice_creez_votre_propre_test_pp.mp4
+    Pour aider les autres à trouver de l'inspiration, laissez un commentaire pour dire quel test vous avez rajouté :)
+
+Unit testing dans la ci
+Attention: regardez les deux vidéos suivantes avant de coder :)
+    
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6557bd97b6b32_fast_api_13_tests_unitaires_dans_la_ci_ATTETION_SUIVRE_LA_VIDEO_SUIVANTE_AVEC_REQUIREMENTS_SINON_FAIL_pp.mp4
+    Utilisation du requirements.txt dans la ci:
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6557bdcce30dc_fast_api_14_requirements_for_tests_pp.mp4
+    Git log --oneline... y'en a marre !
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6557c30883057_git_alias_montage_kaamelott.mp4
+    Quand vous en avez marre, faites des alias ;P
+
+Store class
+Déconstruction de la classe visit sensor
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655a3536f23a0_fast_api_16_store_class_pp.mp4
+
+    Dans cette vidéo on explicite la classe StoreSensor (qui devrait juste s'appeler "Store" ;) ).
+
+
+
+    Chaque Store contient 8 VisitSensor (on se facilite la vie).
+
+    Chacun de ces sensors capte un pourcentage donné du traffic du magasin pour une journée.
+
+
+
+    On profite de cette vidéo pour montrer le raccourci CTRL + clic qui permet de naviguer d'un fichier à l'autre sur Pycharm pour retrouver l'endroit exact où une variable (ou une classe, dans notre cas) est défini.
+
+    Les méthodes de la classe Store
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655a3858ac080_fast_api_17_store_methods_pp.mp4
+    Chaque Store doit pouvoir nous renvoyer:
+
+    - le traffic pour tout le magasin à une date donnée
+
+    - le traffic pour un capteur en particulier pour une date donnée
+
+    Dans cette vidéo, on implémente les méthodes qui permettent de faire ça.
+
+    Et on en profite pour réviser les list comprehensions
+
+    Unit testing de la classe Store
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655a38b119e9a_fast_api_18_store_tests_pp.mp4
+    Je profite de cette deuxième vidéo sur le testing pour vous parler du TDD: test-driven-development.
+
+    N'oubliez pas: tester, c'est douter !
+
+    (joke)
+
+    Instanciation des magasins:
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655ba6f9905cd_fast_api_19_dict_of_stores_pp.mp4
+
+Créer notre API avec FastAPI
+    Attention:
+
+    pour ceux qui suivent assidument: j'ai rajouté une 4e vidéo à la section précédente.
+
+    Allez la voir avant de commencer cette section :)
+
+    Introduction à FastAPI
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655ba7d7827a9_fast_api_20_intro_a_fastapi_pp.mp4
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655bab31101d3_fast_api_21_func_arguments_pp.mp4
+    Si vous n'avez pas trop de culture web, pas de panique !
+
+    Voici quelques éléments qui vont vous permettre de mieux comprendre.
+
+    Une "route" est un concept qui redirige les requêtes API vers des parties différentes de votre code.
+
+    Si votre utilisateur appelle la route www.mon-api.com/profile,
+
+    vous ne voulez pas que le résultat soit le même que pour la route www.mon-api.com/info.
+
+    Dans la vidéo, ce n'est pas très parlant parce qu'on a que l'exemple simpliste @app.get("/")
+
+    Mais si vous vouliez créer une route /profile,
+
+    vous n'auriez qu'à recréer une fonction différente
+
+    et l'enrober avec le décorateur app.get("/profile").
+
+    Ensuite, il existe plusieurs méthodes HTTP pour requéter une API.
+
+    Dans la vidéo, j'ai parlé de GET et POST.
+
+    La différence ?
+
+    => GET sert à récupérer une information et ne modifie pas les données sur le serveur
+
+    => POST, comme son nom l'indique, envoie une information au server et peut modifier l'état des données sur celui-ci
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655bab31101d3_fast_api_21_func_arguments_pp.mp4
+
+    Dans cette vidéo, on ajoute des paramètres à notre fonction.
+
+    Ca indique à FastAPI qu'il faut demander à l'utilisateur de fournir ces informations pour recevoir une réponse.
+
+
+
+
+    Pour les curieux, voici une liste des autres méthodes (dont nous ne nous servirons pas):
+
+    https://www.w3schools.com/tags/ref_httpmethods.asp
+
+
+
+    Permettre à l'utilisateur de préciser sa requête
+
+Check les inputs de l'utilisateur
+    input checks
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655bacb3c79ce_fast_api_22_check_inputs_pp.mp4
+    input checks avec exception handling
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655bacfd96d29_fast_api_22_check_inputs_exceptionhandling_pp.mp4
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655bacfd96d29_fast_api_22_check_inputs_exceptionhandling_pp.mp4
+    On profite de la situation pour faire une révision sur le concept d'exception handling :)
+    Bonus: raccourci pycharm pour modifier une valeur
+
+    sur tout le projet
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655bad6393e0b_fast_api_23_CTRL_shift_F_et_R_pp.mp4
+
+Mettre l'API en ligne avec Render
+1) Allez sur Render :
+
+    https://render.com/
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e7421146b1_rendersigin.png
+    2) Inscrivez vous:
+
+    (J'utilise Google pour l'Auth mais vous faites comme vous voulez ;) )
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e745843f3d_crationdecompteduRender.png
+
+    3) Créez un nouveau service web
+
+    Cliquez sur "New +"
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e75e621cfd_NEW.jpg
+    Puis sur Web Service:
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e766eccc51_webservice.jpg
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e766eccc51_webservice.jpg
+    4) Faites le lien avec votre repo github
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e77cd44c1d_buildfromgit.jpg
+    Puis sélectionnez le repo correspondant à votre projet d'API flask
+
+    5) Paramètres du déploiement
+    A part le nom de votre API, il n'y a presque rien à changer.
+
+    Vous pouvez laisser la région sur Frankfurt.
+
+    Et la build command sur pip install -r requirements.txt
+
+    (assurez-vous de bien avoir un fichier requirements.txt sur la branche principale de votre repo (main ou master)
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e791118849_deployment.jpg
+
+    6) Commande pour lancer l'application
+
+    En face de "Start Command", juste en dessous de "Build Command",
+
+    insérez la commande suivante:
+
+    uvicorn app:app --host 0.0.0.0 --port $PORT
+    7) Spécifiez la version de Python
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e7b4c99485_python_version1.jpg
+    Ouvrez un terminal et entrez:
+    "python --version"
+    pour obtenir la version de Python que vous avez utilisée pour votre projet.
+    (Soyez sûrs d'avoir activé le venv de votre projet pour avoir la même version de Python :) 
+
+    Puis insérez cette version dans le formulaire sur Render :
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655e7c4965b9c_python_version2.jpg
+
+    8) Créez le service web
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655f6e1d1fa21_click_create_web_service.jpg
+    Après quelques instants , votre application devrait être live.
+    Vous pouvez retourner sur votre dashboard et cliquer sur votre application.
+    Vous aurez alors les informations suivantes:
+
+    1) le repo sur lequel votre application est basée
+
+    2) l'URL de votre application
+
+    3) la date à laquelle les derniers déploiements ont eu lieu
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/655f6f5d8d4d5_deployment_details.jpg
+    9) Go LIVE !!
+
+    Vous pouvez tester votre API !!
+
+
+
+    Par exemple:
+
+    https://fake-retail-sensor-api.onrender.com/?store_name=Lille&year=2023&month=9&day=15
+
+
+
+    (remplacez fake-retail-sensor-api par votre URL :) )
+
+
+
+
+
+    Vous pouvez aussi faire une requête CURL depuis votre terminal:
+
+    curl -G https://fake-retail-sensor-api.onrender.com -d "store_name=Lille" -d "year=2023" -d "month=9" -d "day=15"
+
+Interview avec Dorian Turba
+
+Developpeur Python Freelance
+
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6573821054fe1_ITW_DORIAN_TURBA_P1.mp4
+    https://d1yei2z3i6k35z.cloudfront.net/3653488/6574b45648cf2_PartieII.mp4
+    
+

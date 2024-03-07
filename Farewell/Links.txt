@@ -1,0 +1,68 @@
+    Farewell 
+
+
+https://d1yei2z3i6k35z.cloudfront.net/3653488/6578774ad8b4b_conclusion_pp.mp4
+
+    Attention :)
+
+
+
+j'ai encore prévu d'ajouter du contenu:
+
+
+
+1) Une partie optionnelle sur comment créer un mini site web avec Flask.
+
+Je ne l'ai pas priorisée parce qu'avant, dans la data, on utilisait Flask pour faire ce qu'on fait beaucoup plus vite avec Streamlit (une petite app interactive) ou FastAPI (une API requêtable).
+
+Le contenu est déjà prêt, il me reste à tourner les vidéos mais je suis à l'étranger pour l'instant.
+
+
+
+2) Le projet DE End-to-End.
+
+Je vais le faire sous la forme d'une série de tickets d'un board trello à réaliser (comme en entreprise). J'ai déjà listé les tickets et commencé à les écrire.
+
+
+
+
+
+3) des intro à Python et SQL pour les débutants absolus.
+
+(ça ne faisait pas partie de l'offre donc ce sera ajouté au fil de l'eau en 2024).
+
+
+
+
+
+Je vous préviendrai à chaque fois via le groupe Linkedin du programme, donc stay tuned dessus et continuez à répondre aux commentaires des nouveaux, ça les aidera et ça vous fera un refresh :)
+
+
+
+
+
+Si vous avez apprécié le programme, vous pouvez m'aider à le développer encore davantage:
+
+
+
+
+
+1) En laissant votre avis :)
+
+https://testimonial.to/programme-data-upskilling
+
+Cet avis sera affiché sur la page de présentation du programme
+
+pour rassurer ceux qui hésitent à s'inscrire :)
+
+
+
+
+
+2) En faisant vous même la promotion du programme
+
+Contactez moi sur Linkedin si vous souhaitez recevoir un lien affilié.
+
+Si une personne à qui vous partagez ce lien s'inscrit au programme,
+
+vous récupèrerez 30% du montant :)
